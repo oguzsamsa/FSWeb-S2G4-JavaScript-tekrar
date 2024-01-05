@@ -94,17 +94,6 @@ console.log(CemberinAlani(15, pi))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*  (oto test yok) sayilar dizisi içinde kaç adet sayı olduğunu konsola yazdırın */
 
 let ucetambolunenler,
@@ -179,7 +168,7 @@ sayilar.forEach((sayi) => {
   }
 })
 
-for (const sayi of tekrarlar) {
+for (const sayi in tekrarlar) {
   if (tekrarlar[sayi] > 1) {
     tekrarEdenSayilar.push(`${sayi} sayısı ${tekrarlar[sayi]} kere tekrar edilmiştir`)
   }
